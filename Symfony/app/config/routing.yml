@@ -1,0 +1,3 @@
+persona:
+    resource: "@PersonaBundle/Resources/config/routing.yml"
+    prefix:   /

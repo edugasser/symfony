@@ -1,0 +1,30 @@
+Gestor\PersonaBundle\Entity\Persona:
+    type: entity
+    table: null
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        nombre:
+            type: string
+            length: 255
+        apellido:
+            type: string
+            length: 255
+        fechaNacimiento:
+            type: datetime
+            column: fecha_nacimiento
+        paisOrigen:
+            type: string
+            length: 255
+            column: pais_origen
+        poblacionActual:
+            type: string
+            length: 255
+            column: poblacion_actual
+        dni:
+            type: string
+            length: '9'
+    lifecycleCallbacks: {  }

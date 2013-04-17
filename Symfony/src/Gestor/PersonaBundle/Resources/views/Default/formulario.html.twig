@@ -1,0 +1,10 @@
+{% extends '::base.html.twig' %}
+{% block body %}
+
+<form action="{{ path('formulario') }}" method="post" {{form_enctype(formulario) }}>
+	{{ form_widget(formulario) }}
+<input class="boton" type="submit" value="Registrarme" />
+</form>
+
+{% endblock %}
+

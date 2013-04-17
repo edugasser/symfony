@@ -1,0 +1,11 @@
+persona_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: PersonaBundle:Default:index }
+
+prueba:
+    pattern:  /prueba/{name}
+    defaults: { _controller: PersonaBundle:Default:prueba }
+
+formulario:
+    pattern:  /formulario
+    defaults: { _controller: PersonaBundle:Default:formulario }
